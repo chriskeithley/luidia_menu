@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.menuContainer {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 225px;
+    color: #fff;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 1%, rgba(0, 0, 0, 0.2) 29%, rgba(0, 0, 0, 0.06) 72%, rgba(0, 0, 0, 0) 100%);
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 1%, rgba(0, 0, 0, 0.2) 29%, rgba(0, 0, 0, 0.06) 72%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 1%, rgba(0, 0, 0, 0.2) 29%, rgba(0, 0, 0, 0.06) 72%, rgba(0, 0, 0, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d000000', endColorstr='#00000000', GradientType=0);
+}
+
+.menuLogoContainer {
+    width: 30%;
+    float: left;
+    /* background-color:red; */
+    margin-top: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.menuLogo {
+    background-image: url(https://www.luidia.com/wp-content/uploads/images/Luidia2018_Temp/menu_LuidiaLogo.png);
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    width: 160px;
+    height: 50px;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.menuTagWrapper {
+    float: left;
+    clear: both;
+    margin-left: 2%;
+}
+
+.menuTag {
+    font-size: .75em;
+    line-height: 2em;
+}
+
+.menuLinks {
+    width: 70%;
+    /* background-color: #63824d; */
+    float: left;
+    margin-top: 40px;
+}
+
+.menuOption {
+    /* background-color: #418e8e; */
+    display: block;
+    float: right;
+    padding: 10px 20px;
+    font-size: .75em;
+    box-sizing: border-box;
+    border-bottom: 4px solid rgba(255, 255, 255, 0);
+}
+
+.menuOption a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* .menuOption:hover {
+    border-bottom: 4px solid #fff;
+    cursor: pointer;
+    -webkit-transition: border-bottom 2s ease-out;
+    -moz-transition: border-bottom 2s ease-out;
+    -o-transition: border-bottom 2s ease-out;
+    transition: border-bottom 2s ease-out;
+} */
+
+.menuSearchIcon {
+    background-image: url(https://www.luidia.com/wp-content/uploads/images/Luidia2018_Temp/Icon_search.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 39px;
+    height: 44px;
+    float: right;
+    padding-right: 40px;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+
+.darkBG {
+    z-index: 1;
+    width: 100%;
+    height: 200px;
+    display: block;
+    position: fixed;
+    top: 0;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4d5660+1,b7c3cc+100&0.8+0,0.8+62,0.5+68,0+100 */
+    background: -moz-linear-gradient(top, rgba(77, 86, 96, 0.8) 0%, rgba(77, 86, 96, 0.8) 1%, rgba(142, 153, 163, 0.8) 62%, rgba(148, 160, 169, 0.5) 68%, rgba(183, 195, 204, 0) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(77, 86, 96, 0.8) 0%, rgba(77, 86, 96, 0.8) 1%, rgba(142, 153, 163, 0.8) 62%, rgba(148, 160, 169, 0.5) 68%, rgba(183, 195, 204, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(77, 86, 96, 0.8) 0%, rgba(77, 86, 96, 0.8) 1%, rgba(142, 153, 163, 0.8) 62%, rgba(148, 160, 169, 0.5) 68%, rgba(183, 195, 204, 0) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc4d5660', endColorstr='#00b7c3cc', GradientType=0);
+    /* IE6-9 */
+}
+
+/* Dropdown Button */
+.dropbtn {
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0);
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(22,35,46,.75);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-bottom: 4px solid #98A1AB;
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: rgba(235,177,17,0);
+    -webkit-transition: background-color .3s ease-out;
+    -moz-transition: background-color .3s ease-out;
+    -o-transition: background-color .3s ease-out;
+    transition: background-color .3s ease-out;
+}
+
+/* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color: rgba(235,177,17,1)}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+

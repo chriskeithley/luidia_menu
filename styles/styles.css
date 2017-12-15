@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+p {
+    margin:0;
+    font-size:16px;
+    line-height: 18px;
+}
+body {
+    margin: 0;
+    color: #474747;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;}
+
+.headerVideo {
+    height: 100vh;
+    width: 100%;
+    display: block;
+    z-index: 2;
+    position: relative;
+    background: #333 url("https://www.luidia.com/wp-content/uploads/images/Luidia2018_Temp/headers/header_bg-home.jpg") no-repeat center; 
+}
+.headerBG-Home {
+
+}
+
+.contentContainer {
+    width: 100%;
+    height: 2000px;
+}
+
+.contentContainer-Lt {
+    z-index: 0;
+}
+
+.darkSectionShadow {
+    display: block;
+    height: 14px;
+    width: 100%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#65696d+0,65696d+100&0.9+0,0.9+6,0.38+33,0.12+68,0+100 */
+    background: -moz-linear-gradient(top, rgba(101, 105, 109, 0.9) 0%, rgba(101, 105, 109, 0.9) 6%, rgba(101, 105, 109, 0.38) 33%, rgba(101, 105, 109, 0.12) 68%, rgba(101, 105, 109, 0) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(101, 105, 109, 0.9) 0%, rgba(101, 105, 109, 0.9) 6%, rgba(101, 105, 109, 0.38) 33%, rgba(101, 105, 109, 0.12) 68%, rgba(101, 105, 109, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(101, 105, 109, 0.9) 0%, rgba(101, 105, 109, 0.9) 6%, rgba(101, 105, 109, 0.38) 33%, rgba(101, 105, 109, 0.12) 68%, rgba(101, 105, 109, 0) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e665696d', endColorstr='#0065696d', GradientType=0);
+    /* IE6-9 */
+}
